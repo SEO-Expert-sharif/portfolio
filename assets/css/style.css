@@ -1794,6 +1794,46 @@ li.mixitup-control-active {
   right: -30px;
 }
 
+/** Custom Nesw CSS
+/*  Fix news box size */
+.ms-news .news-info {
+  height: 380px;          
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*  Fix image height */
+.ms-news .news-info .news-img {
+  height: 200px;          
+  overflow: hidden;
+}
+
+.ms-news .news-info .news-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;       
+}
+
+/*  Fix details area */
+.ms-news .news-info .detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*  Responsive version  */
+@media (max-width: 768px) {
+  .ms-news .news-info {
+    height: auto;
+  }
+  .ms-news .news-info .news-img {
+    height: auto;
+  }
+}
+
+
 /** End News | Blogs Section **/
 /** Start Contact Section **/
 .ms-contact .section-title .ligh-title {
