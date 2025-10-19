@@ -1,0 +1,7 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://sharif-seo.vercel.app/sitemap.xml
+
+Host: sharif-seo.vercel.app
+
